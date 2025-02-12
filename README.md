@@ -7,6 +7,11 @@ Simulating a Q-learning-powered IDS on Kali Linux, integrating a honeypot to det
 3. Honeypot Integration for attack analysis.
 4. Web Dashboard to monitor blocked IPs.
 
+# Project Structure
+1. qlm_dosblock4.py – The core Python script implementing Q-learning, packet sniffing, and real-time mitigation.
+2. index2.html – Web-based dashboard to monitor and manage blocked IPs.
+3. static/ & templates/ – Contains frontend assets for visualization.
+
 # Setup & Usage
 1. Clone the repository:<br>
     git clone https://github.com/AsmitaBhaduri/Q-learning-based-IDS-deployed-in-a-honeypot.git <br>
